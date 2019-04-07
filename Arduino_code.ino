@@ -2,7 +2,7 @@
 Alexi's take on the OneTouch roof control unit.
 
 Code to fully open or close a 986 Boxster's roof when the roof button is pressed three times in quick succession (within 800ms). 
-A single button press during operation will stop the roof (so you can still get the roof into service mode}.
+A single button press during operation will stop the roof (so you can still get the roof into service mode).
 
 This contrasts with the ‘one touch’ approach, which is more convenient, but leaves a risk of accidentally closing the roof at high speed 
 if you’ve also taken the steps to bypass the handbrake/no speed requirements.
