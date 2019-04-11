@@ -35,7 +35,7 @@ void setup()
 
   // declare the input pins
   pinMode(in_pin_open, INPUT); //Open//
-  pinMode(5, INPUT); //Close//
+  pinMode(in_pin_close, INPUT); //Close//
 }
 
 void loop()
@@ -128,7 +128,7 @@ void Update_button_o()
   delay (90);
   if (roof_open == LOW)
   {
-    digitalWrite(7, LOW);
+    digitalWrite(out_pin_close, LOW);
     oneTouch_open_count++;
   }
   else
@@ -173,7 +173,7 @@ void Run_OneTouch_close()
     oneTouch_open_count = 1;
     oneTouch_close_count = 1;
     oneTouch_close = false;
-    digitalWrite(7, LOW);
+    digitalWrite(out_pin_close, LOW);
   }
   else
   {
